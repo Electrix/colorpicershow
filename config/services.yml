@@ -1,0 +1,10 @@
+services:
+    electrix.cpickershow.listener:
+        class: electrix\cpickershow\event\listener
+        arguments:
+            - @config
+            - @request
+            - @template			
+            - @user
+        tags:
+            - { name: event.listener }

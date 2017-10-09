@@ -1,0 +1,23 @@
+{
+	"name": "electrix/cpickershow",
+	"type": "phpbb-extension",
+	"description": "Adds option in UCP to automatically show color picker each time user is writing a post.",
+	"version": "1.0.0-alpha",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Electrix",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"display-name": "Color Picker Show",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0"
+		}
+	}
+}

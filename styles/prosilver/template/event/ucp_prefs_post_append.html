@@ -1,0 +1,9 @@
+	<hr />
+
+	<dl>
+		<dt><label for="cpickershow">{L_COLOR_PICKER_SHOW}{L_COLON}</label><br /><span></span></dt>
+		<dd>
+			<label for="cpickershow1"><input type="radio" name="cpickershow" id="cpickershow1" value="1"{% if S_COLOR_PICKER_SHOW %} checked="checked"{% endif %}> {L_YES}</label>
+			<label for="cpickershow0"><input type="radio" name="cpickershow" id="cpickershow0" value="0"{% if not S_COLOR_PICKER_SHOW %} checked="checked"{% endif %}> {L_NO}</label>
+		</dd>
+	</dl>
